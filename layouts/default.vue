@@ -76,13 +76,9 @@ export default {
           title: 'Welcome',
           to: '/',
         },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
-        },
+        
           {
-          icon: 'mdi-manga-search',
+          icon: 'mdi-chart-bubble',
           title: 'Manga search',
           to: '/manga/searchManga',
         },
@@ -90,7 +86,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js',
+      title: 'Manga Search Website',
     }
   },
 }
